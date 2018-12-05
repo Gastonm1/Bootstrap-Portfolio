@@ -111,15 +111,20 @@ img{
 }
 .btn {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+  width: 200px;
+}
+
+.btn-color {
+  color: #000000;
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+}
+
+.btn:hover{
+  color:white;
 }
 
 
