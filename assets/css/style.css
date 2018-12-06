@@ -248,3 +248,6 @@ input[type=submit] {
   border: 0 none;
 }
 
+.btn-features {
+  margin-bottom: 5px;
+}
